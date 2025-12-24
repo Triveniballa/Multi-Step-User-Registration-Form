@@ -1,0 +1,61 @@
+body {
+  background: linear-gradient(135deg, #0f172a, #020617);
+  font-family: "Segoe UI", sans-serif;
+}
+
+.form-container {
+  background: #020617;
+  color: white;
+  width: 360px;
+  padding: 30px;
+  margin: 80px auto;
+  border-radius: 16px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+.form-container h2 {
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  background: #1e293b;
+  color: white;
+}
+
+input::placeholder {
+  color: #94a3b8;
+}
+
+.buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 8px;
+  background: #6366f1;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  background: #4f46e5;
+}
+
+.review p {
+  text-align: left;
+  margin: 6px 0;
+}
